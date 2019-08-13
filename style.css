@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainBox {
+  margin: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Question and Answer Section */
+.questionScore {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 500px;
+}
+/* .questionScore, .questionAnswer {
+  display: none;
+} */
+.questionNum {
+  float: left;
+}
+
+.scoreNum {
+  float: right;
+}
+.questionAnswer {
+  margin-top: 25px;
+}
+form {
+  margin-top: 20px;
+}
+fieldset {
+  border: none;
+}
+label {
+  padding: 10px;
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  color: white;
+}
+
+/*Feedback Section*/
+
+.feedback {
+  width: 500px;
+  height: 300px;
+  display: block;
+  text-align: center;
+  position: relative;
+  background-color: rgb(0, 96, 223);
+}
+
+.nextQuestionButton {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20%;
+  }
+
+  .correctAns {
+    position: relative;
+    top: 40%;
+    bottom: 50%;
+    font-size: 24px;
+
+  }
+
+/* Final Score and Replay Button Screen */
+
+.endQuiz {
+  background: url('https://imgur.com/tOj0xhk.jpg') no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.replayButton {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20%;
+}
+
+.finalScoreContent {
+  position: relative;
+  top: 30%;
+  bottom: 50%;
+  font-size: 24px;
+  color: white;
+  background-color:black;
+  text-align: center;
+}
