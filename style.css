@@ -76,13 +76,14 @@ label {
   height: 20%;
   }
 
-  .correctAns {
+  .correctAns, .wrongAns {
     position: relative;
     top: 40%;
     bottom: 50%;
     font-size: 24px;
 
   }
+
 
 /* Final Score and Replay Button Screen */
 
