@@ -25,7 +25,7 @@ const questions = [
 
   {
     question: 'How many playable characters are there in Super Smash Bros?',
-    answers: ['8', '12,', '16', '10'],
+    answers: ['8', '12', '16', '10'],
     correctAnswer: '12'
   },
 
