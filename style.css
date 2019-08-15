@@ -105,7 +105,6 @@ input[type="radio"]{
   height: 300px;
   text-align: center;
   position: relative;
-  /* background-color:#044653; */
   background: linear-gradient(to bottom, rgba(2, 118, 141,1) 0%, rgba(0, 36, 43,1) 100%);
 }
 
@@ -126,8 +125,10 @@ input[type="radio"]{
   transition: all 0.5s ease-out;
 }
   .correctAns {
-    position: relative;
+    position: absolute;
     top: 35%;
+    left: 25%;
+    right: 25%;
     font-size: 24px;
 
   }
@@ -137,6 +138,21 @@ input[type="radio"]{
     bottom: 25%;
     left: 5%;
     right: 5%;
+  }
+  
+  .icon {
+    width: 30%;
+    height: 75%;
+    position: absolute;
+    left: 0;
+  }
+
+  .pikachu {
+    width: 30%;
+    height: 75%;
+    position: absolute;
+    left: 0;
+    top: 5%;
   }
 
 
@@ -182,9 +198,7 @@ input[type="radio"]{
   .questionScore, .questionAnswer {
     display: none;
   }
-  /* .questionAnswer {
-    width: 75%;
-  } */
+
   .scoreNum {
     float: right;
 
@@ -197,9 +211,27 @@ input[type="radio"]{
     width: 100%;
   }
 
+  .correctAns {
+    right: 0;
+  }
+
+  .icon {
+    width: 35%;
+    height: 75%;
+    position: absolute;
+    left: 0;
+  }
+  .pikachu {
+    width: 32%;
+    height: 75%;
+    position: absolute;
+    left: 0;
+    top: 2%;
+  }
+
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .questionAnswer h2, h3, .questionScore {
     font-size: 1em;
   }
@@ -227,7 +259,9 @@ input[type="radio"]{
   }
 
   .correctAns {
-    top: 15%;
+    top: 25%;
+    right: 25%;
+    left: 25%;
     font-size: 20px;
 
   }
@@ -243,6 +277,15 @@ input[type="radio"]{
 
   .finalScoreContent {
     font-size: 14px;
+  }
+
+  .icon{
+    height: 25%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 25%;
   }
 
 }

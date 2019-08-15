@@ -82,6 +82,7 @@ function validateAnswer(){
 //feedback if answer is correct
 function correctAnswer(){
   $('.questionAnswer').html(`<div class="feedback">
+  <img src="images/PikachuVictory.png" alt="Happy Pikachu" class="icon pikachu">
     <div class="correctAns">
     <h3>You got it correct!</h3></div>
     <button type=button class="nextQuestionButton">Next</button>
@@ -93,6 +94,7 @@ function correctAnswer(){
 //feedback if answer is wrong
 function wrongAnswer(){
   $('.questionAnswer').html(`<div class="feedback">
+  <img src="images/duck-hunt-png-3.png" alt="Laughing Duck" class="icon"> 
     <div class="correctAns">
     <h3>You got it wrong</h3></div>
      <p>The correct answer was: <span>${questions[questionNum].correctAnswer}</span></p>
